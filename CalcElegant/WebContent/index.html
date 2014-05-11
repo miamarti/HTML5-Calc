@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/animate.css">
         <script src="assets/js/jquery-1.11.1.min.js"></script>
-        <script type="text/javascript" src="assets/js/calc.js"></script>
         <title>CALC</title>
     </head>
     <body>
@@ -41,7 +40,7 @@
 		        <input type="button" class="button" value="*" onclick="calc.setOperador('*')"/>
 		        <br/>
 		        <input type="button" class="button" value="+" onclick="calc.setOperador('+')"/>
-		        <input type="button" class="button" value="CE" onclick="calc.setReset()"/>
+		        <input type="button" class="button" value="C" onclick="calc.setReset()"/>
 		        <input type="button" class="button" value="-" onclick="calc.setOperador('-')"/>
 		        <input type="button" class="button" value="/" onclick="calc.setOperador('/')"/>
 		        
@@ -49,9 +48,7 @@
     	</div>
 		
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="barcodescanner.js"></script>
-        <script type="text/javascript" src="childbrowser.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="assets/js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
