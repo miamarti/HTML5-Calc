@@ -121,6 +121,54 @@ body, html {
 	width: 100% !important;
 }
 
+.button:FOCUS {
+    background-image: linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -o-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -webkit-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -ms-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #454545),
+        color-stop(1, #0f0f0f)
+    );
+    
+	-webkit-box-shadow: 0px 2px 0px #454545, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	-moz-box-shadow: 0px 2px 0px #454545, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	box-shadow: 0px 2px 0px #454545, 0px 1px 6px rgba(0,0,0,.4), inset 0px;
+	
+	-webkit-transform: translate(0, 4px);
+	-moz-transform: translate(0, 4px);
+	transform: translate(0, 4px);
+}
+
+.button:HOVER {
+    background-image: linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -o-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -moz-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -webkit-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+    background-image: -ms-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #454545),
+        color-stop(1, #0f0f0f)
+    );
+    
+	-webkit-box-shadow: 0px 2px 0px #454545, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	-moz-box-shadow: 0px 2px 0px #454545, 0px 1px 6px rgba(0,0,0,.4), inset 0px 1px 0px rgba(255,255,255,.3), inset 0px 0px 3px rgba(255,255,255,.5);
+	box-shadow: 0px 2px 0px #454545, 0px 1px 6px rgba(0,0,0,.4), inset 0px;
+	
+	-webkit-transform: translate(0, 4px);
+	-moz-transform: translate(0, 4px);
+	transform: translate(0, 4px);
+}
+
 .button:active {
     background-image: linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
     background-image: -o-linear-gradient(bottom, #0f0f0f 0%, #000000 100%);
