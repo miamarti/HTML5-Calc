@@ -1,5 +1,6 @@
 HTML5-Calc
 ==========
+[![Build Status](https://travis-ci.org/alexgibson/notify.js.png?branch=master)](https://github.com/miamarti/HTML5-Calc.git)
 
 Calculadora em HTML5
 
